@@ -94,5 +94,6 @@ volumes:
   mongo-data-volume:
 
 networks:
-  default:
-    name: eoslocal
+  eoslocal:
+    driver: bridge
+
